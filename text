@@ -1,0 +1,41 @@
+---Hridoy lives in a very different world from ours where 
+number of symbols available in that world is not 
+specified. While using a new application, he needs to set 
+password to create an account. he needs to first give an 
+input n. n denotes 2 things: the total number of symbol 
+in that world at the same n is also the number of 
+symbols the application takes to set input and each 
+symbol can be used only once to set password. Now 
+write a program where hridoy gives input n and the 
+output shows the number of ways he can set his 
+password with that.
+Input:
+N = 5
+Output:
+120
+Input:
+N = 7
+Output:
+5040
+Constraints:
+0 <= N <= 18
+-------------------------------------------------------
+---------------------------------------------------------
+---In Daffodil International School a new math teacher 
+introduces a new series and he named the series 
+multinacci series. Where 1st number is 1, 2nd number is 2 
+and from then next number is the multiplication of the 2 
+previous numbers. For example 3rd number is 1X2=2, 4th
+number is 2X2=4 and so on. Write a code where first a 
+input n will be taken and output shows the n-th value in 
+that series.
+Input:
+N = 5
+Output:
+8
+Input:
+N = 7
+Output:
+256
+Constraints:
+0 <= N <= 20
