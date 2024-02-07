@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int emon(int n){
     if(n==1 || n==2){
         return n; 
@@ -19,6 +18,7 @@ int main(){
     printf("Enter number: ");
     scanf("%d", &n);
     int e=emon(n);
-    printf("%d\n", e);
+    printf("Result: %d\n", e);
 
 }
+

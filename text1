@@ -1,0 +1,105 @@
+1.
+Emon is getting ready for an IQ test where a common task involves identifying the number that differs 
+from the rest in terms of evenness among a set of n numbers. Emon noticed that typically, one number 
+stands out in terms of its evenness compared to the others. To verify his answers, Emon needs a 
+program that can identify the number that differs in evenness from the given set of n numbers.
+Input
+The first line contains integer n (3 ≤ n ≤ 100) — the amount of numbers in the task. The second line 
+contains n space-separated natural numbers, not exceeding 100. It is guaranteed, that exactly one of 
+these numbers differs from the others in evenness.
+Output
+Output index of number that differs from the others in evenness. Numbers are numbered from 1 in the 
+input order.
+Input:
+5
+2 4 7 8 10
+Output:
+3
+Input:
+4
+1 2 1 1
+Output:
+2
+
+-----------------------------------
+2. 
+All of you must have noticed that the lift beside Teachers Lounge Knowledge Tower is not available 
+for students. But since you deny obeying the usual rules, you are willing to use this lift once in 
+your life at least.
+Now one day you were sleeping in the class and when you woke up you found none in the 
+department except the guard who was in a deep sleep in his room. But luckily you found the lift 
+on. So, you want to go to the ground floor using the lift. But the lift can be on a different floor. 
+Then you must wait for the lift to come to your floor. Assume that it takes 4 seconds for the lift to 
+go from any floor to its adjacent floor (up or down). It takes 3 seconds to open or close the door 
+and you need 5 seconds to enter or exit the lift. Given your position and the lift's position you 
+have to calculate the time for you to reach the ground floor (floor 0). Reaching ground floor means 
+you must get out of the lift in ground floor.
+Input:
+Input starts with an integer T (≤ 25), denoting the number of test cases.
+Each case contains two integers. The first integer means your position (different than 0) and the 
+second integer means the position of the lift. Assume that the department has 100 floors (maybe
+one day it will be :D).
+Output:
+For each case, print the case number and the calculated time in seconds.
+Input:
+3
+1 2
+3 10
+5 5
+Output:
+Case 1: 27
+Case 2: 59
+Case 3: 39
+
+----------------------------------------
+3.
+When preparing Unlock the Algorithm Programming Contest, CPC DIU coordinators try their best to 
+make the first problem as easy as possible. This time the coordinator had chosen some problems and 
+asked n people about their opinions. Each person answered whether this problem is easy or hard.
+If at least half of these n people has answered that the problem is hard, the coordinator decides to 
+change the problem. For the given responses, check if the problem is changed or remains.
+Input
+The first line contains a single integer n (1≤n≤100) — the number of people who were asked to give 
+their opinions.
+The second line contains n integers, each integer is either 0 or 1. If i-th integer is 00, then i-th person 
+thinks that the problem is easy; if it is 1, then i-th person thinks that the problem is hard.
+Output
+Print one word: "Remains" or “Changed” according to the description of the problem
+Input:
+3
+0 1 1
+Output:
+Changed
+Input:
+1
+0
+Output:
+Remains
+Note
+In the first example the 2 persons says it's a hard problem out of 3, so it should be replaced.
+In the second example the problem easy for the only person, so it doesn't have to be replaced.
+
+-----------------------------------------
+4.
+
+
+ You are given an integer n and an integer k.
+In one step you can do one of the following moves:
+• decrease n by 1;
+• divide n by k if n is divisible by k.
+For example, if n=27 and k=3 you can do the following 
+steps: 27→26→25→24→8→7→6→2→1→027→26→25→24→8→7→6→2→1→0.
+You are asked to calculate the minimum number of steps to reach 0 from n.
+Input
+The first line contains one integer t (1≤t≤100) — the number of queries.
+The only line of each query contains two integers n and k (1≤n≤ 1018
+, 2≤k≤ 1018).
+Output
+For each query print the minimum number of steps to reach 0 from n in single line.
+Input:
+2
+59 3
+1000000000000000000 10
+Output:
+8
+19
