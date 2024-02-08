@@ -4,7 +4,6 @@ int main(){
     scanf("%d", &a);
     while (a--)
     {
-       
        long long b, c;
        scanf("%lld", &b);
        scanf("%lld", &c);
@@ -19,8 +18,5 @@ int main(){
         d++;
        }
        printf("%lld\n", d);
-       
     }
-    
-
 }

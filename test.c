@@ -1,26 +1,22 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
-    while (a--)
-    {
-       
-       long long b, c;
-       scanf("%lld", &b);
-       scanf("%lld", &c);
-       long long d=0;
-       while (b>0)
-       {
-        if(b % c==0){
-            b/=c;
-        }else{
-            b--;
-        }
-        d++;
-       }
-       printf("%lld\n", d);
-       
+    int n, k;
+    int count=0;
+    scanf("%d %d", &n, &k);
+   int e[n];
+   int ks=e[k-1];
+   for (int i=0; i<n; i++){
+    scanf("%d ", &e[i]);
+   }
+   for(int i=0; i<n; i++){
+    if(e[i]>=ks && e[i]>0){
+        count++;
     }
+   }
+
+   
+  
+   printf("%d\n", count);
     
 
 }
