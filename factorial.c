@@ -1,4 +1,4 @@
-    #include <stdio.h>
+  #include <stdio.h>
     int  foo(int n){
         if(n==0){
             return 1;
@@ -19,4 +19,3 @@
         return 0;   
     
     }
-
