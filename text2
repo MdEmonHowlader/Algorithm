@@ -1,0 +1,126 @@
+1. Ibrahim is passionate about football and has dedicated much of his time to watching games. Over time,
+he's discerned various patterns in the sport. For instance, he's noticed that each football team has two
+sets of jerseys: one for home games and another for away games. When a team plays at their own
+stadium, they wear their home jersey. However, when they play away at another team's stadium, they
+wear their away jersey. There's one exception to this rule: if the home team's jersey color matches the
+away team's jersey, the home team wears their away jersey instead. Additionally, each team's home and
+away jerseys feature different colors to distinguish them clearly.
+In the English Premier League, there are n teams participating. Throughout the league, there will be a total
+of n·(n - 1) games, as each team plays against every other team once. Ibrahim is curious: how many times,
+regardless of the game order, will a home team wear its away jersey during the league?
+You have information about the colors of the home and away uniforms for each team, with each color
+assigned a unique integer. To simplify matters, no two distinct colors share the same number. Assist
+Ibrahim in determining the solution to his question.
+Input
+The input consists of an integer n (where 2 ≤ n ≤ 30) on the first line. Following that are n lines, each
+containing a pair of distinct space-separated integers hi and ai (where 1 ≤ hi, ai ≤ 100). These integers
+represent the colors of the home and away jerseys, respectively, for the i-th team.
+Output
+In a single line print the number of matches where the host team is going to play in the away jersey.
+input
+3
+1 2
+2 4
+3 4
+output
+1
+input
+4
+100 42
+42 100
+5 42
+100 5
+output
+5
+input
+2
+1 2
+1 2
+output
+0
+
+
+2. Mozid Introduced an interesting game to his classmates of 63_Q. He said to his classmates- A
+participant who achieves a score equal to or higher than the score of the contestant in the k-th position
+will progress to the next round, provided they attain a positive score themselves.
+There were n participants in the contest (where n ≥ k), and their scores are known.
+Determine the number of participants who will proceed to the next round.
+Input
+The first line of the input contains two integers n and k (1 ≤ k ≤ n ≤ 50) separated by a single space.
+The second line contains n space-separated integers a1, a2, ..., an (0 ≤ ai ≤ 100), where ai is the score earned
+by the participant who got the i-th place. The given sequence is non-increasing (that is, for
+all i from 1 to n - 1 the following condition is fulfilled: ai ≥ ai + 1).
+Output
+Output the number of participants who advance to the next round.
+input
+8 5
+10 9 8 7 7 7 5 5
+output
+6
+input
+4 2
+0 0 0 0
+output
+0
+
+
+3. Shahriar and Marjan are gearing up for programming contests.
+Marjan, who enjoys debugging, has to compile her code before running and debugging
+it. Initially, the compiler detected n compilation errors, each represented by a positive
+integer. After some effort, Marjan managed to fix two mistakes.
+However, Marjan is uncertain about the specific errors she corrected because the
+compiler displays errors in a different order each time. Marjan is confident that unlike
+many other programming languages, the compilation errors in his language are
+independent of each other. This means that fixing one error doesn't affect the set of
+other errors.
+Can you help Marjan determine the exact two errors he corrected?
+Input
+The first line of the input contains integer n (3 ≤ n ≤ 105
+) — the initial number of compilation
+errors.
+The second line contains n space-separated integers a1, a2, ..., an (1 ≤ ai ≤ 109
+) — the errors the
+compiler displayed for the first time.
+The third line contains n - 1 space-separated integers b1, b2, ..., bn - 1 — the errors displayed at the
+second compilation. It is guaranteed that the sequence in the third line contains all numbers of
+the second string except for exactly one.
+The fourth line contains n - 2 space-separated integers с1, с2, ..., сn - 2 — the errors displayed at the
+third compilation. It is guaranteed that the sequence in the fourth line contains all numbers of
+the third line except for exactly one.
+Output
+Print two numbers on a single line: the numbers of the compilation errors that disappeared
+after B made the first and the second correction, respectively.
+input
+5
+1 5 8 123 7
+123 7 5 1
+5 1 7
+output
+8
+123
+
+
+4. Omim has got three quiz marks. quiz 1, quiz 2 and quiz 3. He keeps these numbers in secret,
+but he writes down four numbers on a board in arbitrary order — their pairwise sums (three
+numbers) and sum of all three numbers (one number). So, there are four numbers on a board in
+random order: quiz1+quiz2, quiz2+quiz3, quiz1+quiz3 and quiz1+quiz2+quiz3
+You have to guess three numbers quiz1, quiz2 and quiz3 using given numbers. Print three
+guessed integers in any order.
+Pay attention that some given numbers quiz1, quiz2 and quiz3 can be equal (it is also possible
+that quiz1=quiz2=quiz3).
+Input
+The only line of the input contains four positive integers x1,x2,x3,x4 (2≤xi≤10^9) — numbers written
+on a board in random order. It is guaranteed that the answer exists for the given number x1,x2,x3,x4
+Output
+Print such positive integers quiz1, quiz2, quiz3 that four numbers written on a board are
+values quiz1+quiz2, quiz2+quiz3, quiz1+quiz3 and quiz1+quiz2+quiz3
+written in some order. Print quiz1, quiz2, quiz3 in any order. If there are several answers, you can
+print any. It is guaranteed that the answer exists.
+input
+30 30 45 30
+output
+15 15 15
+input
+3 6 5 4
+output
+2 1 3
