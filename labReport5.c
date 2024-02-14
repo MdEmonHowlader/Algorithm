@@ -1,3 +1,5 @@
+//1. Ibrahim is passionate about football and has dedicated much of his time to watching games.
+
 #include <stdio.h>
 int main(){
     int n;
@@ -24,5 +26,4 @@ int main(){
         
     }
     printf("%d\n", count);
-
 }
