@@ -1,7 +1,6 @@
 #include<stdio.h>
 int findSecondLargest(int arr[], int n) {
     if (n < 2) {
-        printf("Array least two elements.");
         return -1;
     }
     int comparisons = 0;

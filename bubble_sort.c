@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a[]={3,13,4,10,6,2,7,9,0,8,78};
-    int b=10;
-    for(int i=0; i<b; i++){
-        for(int j=0; j<(b-1); j++){
+    int a[0];
+    int b;
+    scanf("%d", &b);
+    for(int i=1; i<b; i++){
+        for(int j=1; j<(b-1); j++){
           if(a[j]>a[j+1]){
               int temp=a[j];
             a[j]=a[j+1];
