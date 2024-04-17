@@ -1,11 +1,8 @@
 #include<stdio.h>
-
 int main()
 {
     int t;
     scanf("%d", &t);
-
-
     while (t--)
     {
        int n, k;
@@ -19,8 +16,6 @@ int main()
            total+=new;
            butts=new+(butts%k);
         }
-        printf("%d\n", total);
-        
+        printf("%d\n", total); 
     }
-    
 }
